@@ -1,0 +1,425 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/web.css">
+
+	<!-- JQuery -->
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<title>lagula</title>
+</head>
+
+<div class="w-100 h-100 bg-light d-none" style="position: fixed; top:0; left:0;z-index:500; color: #00122b;">
+	<nav class="d-flex p-3 bg-white border">
+		<a href="login.php" type="button" class="btn btn-primary ms-auto">Login</a>
+	</nav>
+	<div class="col-8 d-flex h-100 ps-5" style="align-items: center;">
+		<div>
+			<h1 style="font-family:bold; font-size:100px;line-height: 78px;">Estamos mejorando nuestro sitio web.</h1>
+			<div class="d-flex">
+				<img src="new-imgs/tray.svg" style="max-width: 60px;" class="me-3" alt="lagula software menu online carta digital qr codigo bar resto cerveceria sistema servicio">
+				<p style="font-size:40px" class="mb-0">No tardamos!</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<body>
+	<div id="home" class="header">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-dark w-100">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#"><img src="new-imgs/tray-white.svg" alt="lagula software gastronomico menu carta online digital" style="width: auto;height:30px;"></a>
+					<button class="navbar-toggler btn text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+								<path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+							</svg>
+						</span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+						<ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+							<li class="nav-item me-lg-3 mx-auto">
+								<a class="nav-link active" aria-current="page" href="#">¿Cómo empiezo?</a>
+							</li>
+							<li class="nav-item me-lg-3 mx-auto">
+								<a class="nav-link" href="#testimony">Testimonios</a>
+							</li>
+							<li class="nav-item me-lg-3 mx-auto">
+								<a class="nav-link" href="#services">Servicios</a>
+							</li>
+							<li class="nav-item me-lg-3 mx-auto">
+								<a class="nav-link" href="#contact">Contacto</a>
+							</li>
+							<li class="nav-item me-lg-3 mx-auto">
+								<a class="btn ghost rounded-pill px-4" href="https://lagula.net/login.php">Login</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+
+			<!-- Carta Online / Smartphone -->
+			<div class="d-lg-flex py-5" style="min-height:90vh">
+				<div class="col-12 col-lg-6 d-flex" style="align-items: center;">
+					<div class="mb-5">
+						<h1 class="title text-light">Carta Online</h1>
+						<h6 class="subtitle text-light">Registrá hoy tu negocio 100% gratis y viví la experiencia de la nueva normalidad.</h6>
+						<div class="d-md-flex">
+							<a href="#" class="fill text-light rounded-pill border-0 btn mt-2">REGISTRARME</a>
+							<a href="http://tubar.lagula.net" target="_blank" class="ghost rounded-pill ms-sm-2 btn mt-2" style="padding: 10px 30px;min-width: 168px;">VER DEMO</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-lg-6 d-flex" style="align-items: center;">
+					<img src="new-imgs/smartphone.png" class="pt-5 p-sm-5" style="width:100%; height:auto;">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="testimony" style="height: 100vh; align-items:center;" class="d-flex">
+		<div class="container">
+			<h3 class="subtitle semi-title text-center">¿Quienes nos recomiendan?</h3>
+			<h2 class="title-2 text-center"><span style="font-family:semibold">Testimonios de</span><br>nuestros clientes</h2>
+
+			<!-- Carousel -->
+			<div id="carousel" class="carousel slide p-sm-5 mt-5 mx-auto" style="border-radius: 30px;background: #f6f6f6;max-width: 900px;">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<p class="testimony p-sm-4">"No es cualquier app que haya visto en bares, se tiene el control desde el stock, clientes y el menú. Sin hablar del constante seguimiento de los chicos. 5 estrellas sin dudas!"</p>
+						<div class="text-left">
+							<p class="name mb-0">Agustin Carreras</p>
+							<p class="shop">Garden Bistro - Leones, Cba.</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<p class="testimony p-sm-4">"Hace poco que estoy usando el sistema y la verdad estoy muy conforme, la atención de los desarrolladores es excelente. Cualquier duda o consulta que tuve me la solucionaron enseguida, lo recomiendo 100%."</p>
+						<div class="text-left">
+							<p class="name mb-0">Agustin Herrera</p>
+							<p class="shop">El Patio de Noah - Leones, Cba.</p>
+						</div>
+					</div>
+				</div>
+
+				<button class="carousel-control-prev my-auto rounded-circle" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next my-auto rounded-circle" type="button" data-bs-target="#carousel" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</div>
+	</div>
+
+	<div id="clients" style="background:#f5f5f5;">
+		<div class="clients-wrap pt-3 pb-md-4 pt-md-4">
+			<ul id="clients-list" class="clearfix" style="min-width: max-content;">
+				<li>
+					<a href="http://wheel.lagula.net" target="_blank">
+						<img src="new-imgs/wheel.svg" alt="TheWheel">
+					</a>
+				</li>
+				<li>
+					<a href="http://callejon.lagula.net" target="_blank">
+						<img src="new-imgs/callejon.svg" alt="Callejon">
+					</a>
+				</li>
+				<li>
+					<a href="http://blest.lagula.net" target="_blank">
+						<img src="new-imgs/blest.svg" alt="Blest">
+					</a>
+				</li>
+				<li>
+					<a href="http://boris.lagula.net" target="_blank">
+						<img src="new-imgs/boris.svg" alt="Boris">
+					</a>
+				</li>
+				<li>
+					<a href="http://noah.lagula.net" target="_blank">
+						<img src="new-imgs/noah.svg" alt="Noah">
+					</a>
+				</li>
+				<li>
+					<a href="http://baron.lagula.net" target="_blank">
+						<img src="new-imgs/baron.svg" alt="Baron">
+					</a>
+				</li>
+				<li>
+					<a href="http://bock.lagula.net" target="_blank">
+						<img src="new-imgs/bock.svg" alt="Bock">
+					</a>
+				</li>
+				<li>
+					<a href="http://garden.lagula.net" target="_blank">
+						<img src="new-imgs/garden.svg" alt="Garden">
+					</a>
+				</li>
+				<li>
+					<a href="http://cielito.lagula.net" target="_blank">
+						<img src="new-imgs/cielito.svg" alt="Cielito">
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+
+	<div id="stats" class="d-flex" style="height:90vh;align-items:center;background-image:url(new-imgs/pixels-stats.png);background-repeat:no-repeat;background-position: right bottom;background-size: auto;">
+		<div class="container">
+			<h3 class="subtitle semi-title">ESTADÍSTICAS</h3>
+			<h2 class="title-2"><span style="font-family:semibold">Nuestros</span> logros</h2>
+			<div class="d-sm-flex mt-5">
+				<div class="col text-md-center">
+					<div class="number-stats">
+						9
+						<p class="text-stats">Clientes</p>
+					</div>
+				</div>
+				<div class="col text-md-center">
+					<div class="number-stats">
+						5
+						<p class="text-stats">Ciudades</p>
+					</div>
+				</div>
+				<div class="col text-md-center">
+					<div class="number-stats">
+						3000
+						<p class="text-stats">Pedidos realizados</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="d-flex py-4 px-md-4 p-sm-5" style="min-height: 150vh; background:#f5f5f5; align-items:center;">
+		<div class="container" id="services">
+			<h3 class="subtitle semi-title">Servicios</h3>
+			<h2 class="title-2"><span style="font-family:semibold">Soluciones</span> para tu negocio</h2>
+			<div class="d-lg-flex mt-md-5">
+				<!-- Plan FREE -->
+				<div class="col-lg-4 py-4 px-1">
+					<div class="card border-0">
+						<div class="card-header p-0">
+							<p class="plan-title">Plan <span style="font-family:semibold">Free</span></p>
+						</div>
+						<div class="card-body" style="display: contents;">
+							<ul class="p-4 p-md-4 mb-0">
+								<li style="text-decoration: none;">Carta QR.</li>
+								<li style="color:gray; margin-top:-10px; font-size: 1rem;">Autoadministrable</li>
+								<li style="text-decoration: none;">10 Categorías.</li>
+								<li style="text-decoration: none;">10 Items.</li>
+								<li style="color:gray; margin-top:-10px; font-size: 1rem;">por Categoría</li>
+								<li style="text-decoration: none;">Redes sociales.</li>
+								<li style="color:gray; margin-top:-10px; font-size: 1rem;">Instagram, Facebook y Twitter</li>
+								<li style="text-decoration: none;">Horarios.</li>
+								<li style="color:gray; margin-top:-10px; font-size: 1rem;">Por mañana y tarde</li>
+								<li style="text-decoration: none;">Ubicación.</li>
+							</ul>
+							<div class="price d-flex w-100 mt-auto" style="color:rgba(16,28,44,1);height:100px; align-items:center;">
+								<p class="mt-2 ms-auto" style="font-size:1.5rem;color:#101c2c; align-items:baseline">$</p>
+								<h1>0</h1>
+								<p class="mt-4 me-auto" style="font-size:1rem;color:#adadad;">/mes</p>
+							</div>
+							<div class="text-center d-flex" style="height:100px; align-items:center; justify-content:center">
+								<div class="btn ghost-2">ADQUIRIR</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Plan BASIC -->
+				<div class="col-lg-4 py-4 px-1">
+					<div class="card border-0">
+						<div class="card-header p-0">
+							<p class="plan-title">Plan <span style="font-family:semibold">BASIC</span></p>
+						</div>
+						<div class="card-body" style="display: contents;">
+							<ul class="p-4 p-md-4 mb-0">
+								<li style="text-decoration: none;">Carta QR.</li>
+								<li style="color:gray; margin-top:-10px; font-size: 1rem;">Autoadministrable</li>
+								<li style="text-decoration: none;">Categorías.</li>
+								<li style="color:gray; margin-top:-10px; font-size: 1rem;">Ilimitadas</li>
+								<li style="text-decoration: none;">Items.</li>
+								<li style="color:gray; margin-top:-10px; font-size: 1rem;">Ilimitados</li>
+								<li style="text-decoration: none;">Redes sociales.</li>
+								<li style="color:gray; margin-top:-10px; font-size: 1rem;">Instagram, Facebook y Twitter</li>
+								<li style="text-decoration: none;">Horarios.</li>
+								<li style="color:gray; margin-top:-10px; font-size: 1rem;">Por mañana y tarde</li>
+								<li style="text-decoration: none;">Ubicación.</li>
+							</ul>
+							<div class="price d-flex w-100 mt-auto" style="color:rgba(16,28,44,1);height:100px; align-items:center;">
+								<p class="mt-2 ms-auto" style="font-size:1.5rem;color:#101c2c; align-items:baseline">$</p>
+								<h1>799.99</h1>
+								<p class="mt-4 me-auto" style="font-size:1rem;color:#adadad;">/mes</p>
+							</div>
+							<div class="text-center d-flex" style="height:100px; align-items:center; justify-content:center">
+								<div class="btn ghost-2">ADQUIRIR</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Plan PREMIUM -->
+				<div class="col-lg-4 py-4 px-1">
+					<div class="card border-0">
+						<div class="card-header p-0">
+							<p class="plan-title">Plan <span style="font-family:semibold">PREMIUM</span></p>
+						</div>
+						<div class="card-body" style="display: contents;">
+							<ul class="p-4 p-md-4 mb-0">
+								<li style="text-decoration: none;">Carta QR.</li>
+								<li style="color:gray; margin-top:-10px; font-size: 1rem;">Autoadministrable</li>
+								<li style="text-decoration: none;">Categorías.</li>
+								<li style="color:gray; margin-top:-10px; font-size: 1rem;">Ilimitadas</li>
+								<li style="text-decoration: none;">Items.</li>
+								<li style="color:gray; margin-top:-10px; font-size: 1rem;">Ilimitados</li>
+								<li style="text-decoration: none;">Redes sociales.</li>
+								<li style="color:gray; margin-top:-10px; font-size: 1rem;">Instagram, Facebook y Twitter</li>
+								<li style="text-decoration: none;">Horarios.</li>
+								<li style="color:gray; margin-top:-10px; font-size: 1rem;">Por mañana y tarde</li>
+								<li style="text-decoration: none;">Ubicación.</li>
+								<li style="text-decoration: none;color:rgba(239,55,76,1); font-family:semibold">Pedidos por WhatsApp.</li>
+								<ul>
+									<li style="color:gray; margin-top:-5px; font-size: 1rem;">* Recibí pedidos de tus clientes!</li>
+									<li style="color:gray; margin-top:-5px; font-size: 1rem;">* Elegí formas de envío y pago</li>
+									<li style="color:gray; margin-top:-5px; font-size: 1rem;">* Si queres ver como funciona ingresa en <a href="http://tubar.lagula.net" target="_blank" style="color:rgba(239,55,76,1);font-family:semiboldd;text-decoration:none; margin-top:-5px; font-size: 1rem;" rel="noopener noreferrer">VER DEMO</a> y hace clic en 'Hacer pedido'</li>
+								</ul>
+								<li style="text-decoration: none;">Diseño de códigos QR.</li>
+								<li style="text-decoration: none;">Carga inicial de contenido.</li>
+							</ul>
+							<div class="price d-flex w-100 mt-auto" style="color:rgba(16,28,44,1);height:100px; align-items:center;">
+								<p class="mt-2 ms-auto" style="font-size:1.5rem;color:#101c2c; align-items:baseline">$</p>
+								<h1>999.99</h1>
+								<p class="mt-4 me-auto" style="font-size:1rem;color:#adadad;">/mes</p>
+							</div>
+							<div class="text-center d-flex" style="height:100px; align-items:center; justify-content:center">
+								<div class="btn ghost-2">ADQUIRIR</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="contact" class="d-flex" style="height:90vh;align-items:center;background-image:url(new-imgs/pixels-stats-2.png);background-repeat:no-repeat;background-position: left top;background-size: auto;">
+		<div class="container">
+			<h3 class="subtitle semi-title text-center">¿Necesitás ayuda?</h3>
+			<h2 class="title-2 text-center"><span style="font-family:semibold">Contáctanos</span> <br> a través de</h2>
+			<div class="d-flex my-5">
+				<a href="https://wa.me/qr/Z6Z77DGFKGQYI1" target="_blank" class="circle-contact p-3 rounded-circle mx-auto my-2 ms-md-auto">
+					<img src="new-imgs/whatsapp-white.svg" alt="whatsapp lagula" width="50px" height="50px">
+				</a>
+				<a href="http://instagram.com/lagulaoficial" target="_blank" class="circle-contact p-3 rounded-circle mx-auto my-2 mx-md-5">
+					<img src="new-imgs/instagram.svg" alt="instagram lagula" width="50px" height="50px">
+				</a>
+				<a href="https://www.facebook.com/lagulasoftware/" target="_blank" class="circle-contact p-3 rounded-circle mx-auto my-2 me-md-auto">
+					<img src="new-imgs/facebook.svg" alt="facebook lagula" width="50px" height="50px">
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="footer text-light" style="background: linear-gradient(90deg, rgba(239,55,76,1) 0%, rgba(239,109,45,1) 100%);width:100%;">
+		<div class="col text-center">
+			<p class="mb-0 py-2" style="font-family:regular;">Hecho con amor por <a href="http://instagram.com/jero.donato" target="_blank" rel="noopener noreferrer" class="text-white" style="font-family:semibold;text-decoration:none;"><img src="new-imgs/instagram.svg" width="15px" height="15px"> jero.donato</a></p>
+		</div>
+	</div>
+	<!-- Option 1: Bootstrap Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+
+</html>
+<script>
+	$(function() {
+		// vars for clients list carousel
+		// http://stackoverflow.com/questions/6759494/jquery-function-definition-in-a-carousel-script
+		var $clientcarousel = $('#clients-list');
+		var clients = $clientcarousel.children().length;
+		var clientwidth = (clients * 220); // 140px width for each client item 
+		$clientcarousel.css('width', clientwidth);
+
+		var rotating = true;
+		var clientspeed = 0;
+		var seeclients = setInterval(rotateClients, clientspeed);
+
+		$(document).on({
+			mouseenter: function() {
+				rotating = false; // turn off rotation when hovering
+			},
+			mouseleave: function() {
+				rotating = true;
+			}
+		}, '#clients');
+
+		function rotateClients() {
+			if (rotating != false) {
+				var $first = $('#clients-list li:first');
+				$first.animate({
+					'margin-left': '-220px'
+				}, 2000, "linear", function() {
+					$first.remove().css({
+						'margin-left': '0px'
+					});
+					$('#clients-list li:last').after($first);
+				});
+			}
+		}
+	});
+</script>
+
+<script>
+	$('.nav-link').click(function() {
+		$('.nav-link').removeClass('active');
+		$(this).addClass('active');
+	})
+</script>
+
+<script>
+	function corroborarAncho() {
+		if ($(window).width() < 991) {
+			$('.navbar-nav').css('height', '100vh');
+		} else {
+			$('.navbar-nav').css('height', 'auto');
+		}
+	}
+	$(window).scroll(function() {
+		posicionarMenu();
+	});
+	$(window).resize(function(){
+		corroborarAncho();
+	});
+
+	function posicionarMenu() {
+		var altura_del_menu = $('.navbar').outerHeight(true);
+
+		if ($(window).scrollTop() >= altura_del_menu) {
+			$('.navbar').addClass('fixed').slideDown(200, 'swing');
+			$('.navbar').css('background', 'linear-gradient(0deg, rgba(40,63,99,0) 0%, rgba(29,48,77,0.47942927170868344) 25%, rgba(14,27,43,1) 100%)');
+			$('.nav-link').css('color', 'white');
+			$('.navbar').css('z-index', '300');
+			$('body').css('marginTop', altura_del_menu + 'px');
+			corroborarAncho();
+		} else {
+			$('.navbar').removeClass('fixed');
+			$('.nav-link').css('color', '');
+			$('.navbar').css('background', 'transparent');
+			$('body').css('marginTop', '0px');
+			$('.navbar-nav').css('height', 'auto');
+			corroborarAncho();
+		}
+	}
+	$('.nav-link').click(function() {
+		$('.navbar-collapse').removeClass('show');
+	})
+</script>
